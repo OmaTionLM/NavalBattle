@@ -4,9 +4,10 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * This class is a kind of JLabel used to create a personalized Header for the project
- * @autor Paola-J Rodriguez-C paola.rodriguez@correounivalle.edu.co
- * @version @version v.1.0.0 date:21/11/2021
+ * This class is used for ...
+ * Alan Valderrama - 2042836 - alan.valderrama@correounivalle.edu.co
+ * Jeison Perea - 2077250 - jeison.perea@correounivalle.edu.co
+ * @version v.1.0.0 date:15/03/2022
  */
 public class Header extends JLabel
 {
