@@ -570,7 +570,7 @@ public class GUIGridLayout extends JFrame
                             */
                             if (step == 1)
                             {
-                                int option = JOptionPane.showConfirmDialog(positionPanel, "Do you want to put the boat vertically?",
+                                int option = JOptionPane.showConfirmDialog(positionPanel, "Do you want to put the boat vertically? (if you choose 'No' the ship is placed horizontally)",
                                         "Choice Window", JOptionPane.YES_NO_OPTION);
                                 if (option == JOptionPane.YES_OPTION)
                                 {
@@ -636,7 +636,7 @@ public class GUIGridLayout extends JFrame
                             {
                                 if (firstTime >= 1)
                                 {
-                                    int option = JOptionPane.showConfirmDialog(positionPanel, "Do you want to put the boat vertically?",
+                                    int option = JOptionPane.showConfirmDialog(positionPanel, "Do you want to put the boat vertically? (if you choose 'No' the ship is placed horizontally)",
                                             "Choice Window", JOptionPane.YES_NO_OPTION);
                                     if (option == JOptionPane.YES_OPTION)
                                     {
@@ -704,7 +704,7 @@ public class GUIGridLayout extends JFrame
                             {
                                 if (firstTime >= 1)
                                 {
-                                    int option = JOptionPane.showConfirmDialog(positionPanel, "Do you want to put the boat vertically?",
+                                    int option = JOptionPane.showConfirmDialog(positionPanel, "Do you want to put the boat vertically? (if you choose 'No' the ship is placed horizontally)",
                                             "Choice Window", JOptionPane.YES_NO_OPTION);
                                     if (option == JOptionPane.YES_OPTION)
                                     {
@@ -789,7 +789,7 @@ public class GUIGridLayout extends JFrame
                     /*
                     Set the enemy panel and determines if the player is winner or not
                     */
-                    controlNavalBattle.setEnemyPanel(enemyPanel, enemyPanelCells, testImage);
+                    controlNavalBattle.setEnemyPanel(enemyPanel, enemyPanelCells);
                     seeEnemyPanel.updateUI();
                     boolean win=controlNavalBattle.winner(hits);
                     boolean enemyWin=controlNavalBattle.enemyWin();

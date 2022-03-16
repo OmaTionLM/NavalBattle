@@ -33,7 +33,7 @@ public class ControlNavalBattle
     /*
     Set the enemy panel
     */
-    public void setEnemyPanel(JPanel panel, Cells[][] cells, ImageIcon image)
+    public void setEnemyPanel(JPanel panel, Cells[][] cells)
     {
         Random randoNum=new Random();
         /*
